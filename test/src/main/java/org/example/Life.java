@@ -30,6 +30,7 @@ public class Life {
     public void renderBoard(ArrayList<ArrayList<Integer>> state) {
         for (int i = 0; i < state.get(0).size(); i++) {
             System.out.print("--");
+	    System.out.print("Test for alt branch");	
         }
 
     }
